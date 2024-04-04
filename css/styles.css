@@ -1,0 +1,22 @@
+.gallery-item {
+    display: inline-block; 
+  }
+  
+  .gallery-image {
+    width: 360px;
+    height: 200px;
+    transition: 0.3s ease;
+  }
+
+  .gallery {
+    display: flex;
+    gap: 24px; 
+    flex-wrap: wrap;
+    margin-top: 24px;
+    justify-content: center;
+  }
+  
+  .gallery-image:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease;
+  }
